@@ -1,0 +1,57 @@
+- Classes de entidades devem ser criadas no pacote 'entity' dentro do pacote 'model';
+
+- Existem "3 camadas", sendo elas Controller, Service e Repository;
+
+- Controller: Recebe e tem acesso a todas as requisições vindas do Front e/ou Postman;
+
+- Service: Responsavel por tratar os dados recebidos da camada Controller, fazer validações e chamadas ao Repository;
+
+- Repository: Responsavel por se comunicar com o banco de dados;
+
+---------
+
+Anotações
+
+Entity:
+- @Data: Automatiza a criação dos Getters e Setters;
+- @AllArgsConstructor: Automatiza a criação de um construtor com TODOS as variaveis da entidade;
+- @NoArgsConstructor: Automatiza a criação de um construtor sem NENHUMA variavel da entidade;
+- @Entity: Especifica que a classe é uma entidade/cria uma tabela no banco de dados para ela;
+- @Id: Especifica que a variavel a seguir é uma PK ( Primary Key );
+- @GeneratedValue: Gera valores para a variavel a seguir. É obrigatorio que a variavel seja uma PK;
+
+Controllers:
+- @RestController: Especifica que é um Controller com o uso da estrutura REST;
+- @RequestMapping("/caminhoAqui"): Define um caminho/url para a classe Controller em questão;
+- @PostMapping: Anotação para o HTTP saber que é um metodo de Post, ou o C de CRUD;
+- @GetMapping: Anotação para o HTTP saber que é um metodo de Get, ou o R de CRUD;
+- @PutMapping: Anotação para o HTTP saber que é um metodo de Put, ou o U de CRUD;
+- @DeleteMapping: Anotação para o HTTP saber que é um metodo de Delete, ou o D de CRUD;
+- @Autowired: Construtor com injeção de dependencias SPRING;
+
+Service:
+- @Service: Indica que a classe é um Service do SPRING;
+
+Repository:
+- @Repository: Indica que a classe é um Repository do SPRING;
+
+----------
+Classes
+
+Repositorys:
+- Os repositorys tem acesso a comandos a nivel de banco de dados como .save(), .findAll(), .findById(), .deleteById();
+- Devem ser marcados como @Repository;
+- Devem ser interfaces ( Ex: "public interface exemploInterface" );
+- Devem extender o Repository Jpa ( atraves do uso do "extend JpaRepository< tipoEntidade, tipoIdentificador >")
+
+Services:
+- Devem implementar sua propria interface;
+- Devem possuir a injeção de dependencia do seu proprio Repository;
+- Devem possuir o CRUD basico;
+- Devem ser marcados como @Service;
+
+Controller:
+- Devem ser marcados como @RestController;
+- Devem possuir um endereço de acesso ( @RequestMapping("/enderecoAqui") );
+- Devem possuir o CRUD basico;
+- É por onde o back end tem acesso ao front end;

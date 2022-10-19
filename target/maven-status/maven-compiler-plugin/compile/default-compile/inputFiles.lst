@@ -1,0 +1,11 @@
+C:\Users\Fabio\Desktop\Coisas\01. Projetos\02. Senai\pizzaria-futurodev\src\main\java\br\com\agls\pizzariafuturodev\PizzariaFuturodevApplication.java
+C:\Users\Fabio\Desktop\Coisas\01. Projetos\02. Senai\pizzaria-futurodev\src\main\java\br\com\agls\pizzariafuturodev\model\Mesa.java
+C:\Users\Fabio\Desktop\Coisas\01. Projetos\02. Senai\pizzaria-futurodev\src\main\java\br\com\agls\pizzariafuturodev\model\Categoria.java
+C:\Users\Fabio\Desktop\Coisas\01. Projetos\02. Senai\pizzaria-futurodev\src\main\java\br\com\agls\pizzariafuturodev\repository\MesaRepository.java
+C:\Users\Fabio\Desktop\Coisas\01. Projetos\02. Senai\pizzaria-futurodev\src\main\java\br\com\agls\pizzariafuturodev\controller\MesaController.java
+C:\Users\Fabio\Desktop\Coisas\01. Projetos\02. Senai\pizzaria-futurodev\src\main\java\br\com\agls\pizzariafuturodev\service\interfaces\CategoriaService.java
+C:\Users\Fabio\Desktop\Coisas\01. Projetos\02. Senai\pizzaria-futurodev\src\main\java\br\com\agls\pizzariafuturodev\repository\CategoriaRepository.java
+C:\Users\Fabio\Desktop\Coisas\01. Projetos\02. Senai\pizzaria-futurodev\src\main\java\br\com\agls\pizzariafuturodev\service\interfaces\MesaService.java
+C:\Users\Fabio\Desktop\Coisas\01. Projetos\02. Senai\pizzaria-futurodev\src\main\java\br\com\agls\pizzariafuturodev\service\MesaServiceImpl.java
+C:\Users\Fabio\Desktop\Coisas\01. Projetos\02. Senai\pizzaria-futurodev\src\main\java\br\com\agls\pizzariafuturodev\service\CategoriaServiceImpl.java
+C:\Users\Fabio\Desktop\Coisas\01. Projetos\02. Senai\pizzaria-futurodev\src\main\java\br\com\agls\pizzariafuturodev\controller\CategoriaController.java
